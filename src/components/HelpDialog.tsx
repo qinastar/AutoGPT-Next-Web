@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDiscord, FaGithub } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaQq } from "react-icons/fa";
 import Dialog from "./Dialog";
 import { useTranslation } from "next-i18next";
 import { authEnabled } from "../utils/env-helper";
@@ -45,7 +45,7 @@ export default function HelpDialog({
               <FaDiscord size={30} />
             </div>
           )}
-          <div
+          {/* <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
               window.open(
@@ -55,6 +55,17 @@ export default function HelpDialog({
             }
           >
             <FaGithub size={30} />
+          </div> */}
+          <div
+            className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
+            onClick={() =>
+              window.open(
+                "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Rqa7j0lMFsAVGWNYna6wtWvUjDR5pzQR&authKey=jS4IXatAbSZi384pzyUMZNnh7Fa1QqmU%2FfB%2BH%2F01Hm4kqTW0RGkHsT3FdTY%2BRGSd&noverify=0&group_code=744197295",
+                "_blank"
+              )
+            }
+          >
+            <FaQq size={30} />
           </div>
         </div>
       </div>

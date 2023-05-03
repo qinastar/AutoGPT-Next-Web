@@ -163,10 +163,16 @@ const Drawer = ({
               />
             </Fragment>
           )}
-          <DrawerItem
+          {/* <DrawerItem
             icon={<FaGithub />}
             text="GitHub"
             href="https://github.com/Dogtiti/AutoGPT-Next-Web"
+            target="_blank"
+          /> */}
+          <DrawerItem
+            icon={<FaQq/>}
+            text="QQ群"
+            href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Rqa7j0lMFsAVGWNYna6wtWvUjDR5pzQR&authKey=jS4IXatAbSZi384pzyUMZNnh7Fa1QqmU%2FfB%2BH%2F01Hm4kqTW0RGkHsT3FdTY%2BRGSd&noverify=0&group_code=744197295"
             target="_blank"
           />
           <DrawerItem

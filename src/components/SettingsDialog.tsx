@@ -284,7 +284,14 @@ export const SettingsDialog: React.FC<{
           >
             link.
           </a>
-          This key is only used in the current browser session
+          This key is only used in the current browser session.
+
+          <a
+            href="https://shop.yuina.cn/"
+            className="text-blue-500"
+          >
+            BUY KEY HERE
+          </a>
         </strong>
       </Trans>
     </Dialog>
